@@ -120,7 +120,7 @@ export default function ProjectsPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <Reveal>
-        <h1 className="text-4xl font-bold tracking-tight text-foreground mb-3">
+        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-foreground mb-3">
           Projects
         </h1>
         <p className="text-muted-foreground mb-10">
@@ -128,7 +128,7 @@ export default function ProjectsPage() {
         </p>
       </Reveal>
 
-      <div className="space-y-16">
+      <div className="space-y-10 sm:space-y-16">
         {projects.map((project, i) => (
           <Reveal key={project.slug} delay={i * 0.1}>
             <motion.article
@@ -143,9 +143,9 @@ export default function ProjectsPage() {
                 >
                   <ProjectMedia project={project} />
                 </div>
-                <div className="p-8 lg:p-10 flex flex-col justify-center">
+                <div className="p-4 sm:p-6 lg:p-10 flex flex-col justify-center">
                   <div className="flex items-start justify-between gap-4 mb-4">
-                    <h2 className="text-2xl font-semibold text-foreground group-hover:text-teal-500 transition-colors">
+                    <h2 className="text-xl sm:text-2xl font-semibold text-foreground group-hover:text-teal-500 transition-colors">
                       {project.title}
                     </h2>
                     <div className="flex gap-2 shrink-0">
@@ -154,7 +154,7 @@ export default function ProjectsPage() {
                           href={project.href}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="p-2 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors"
+                          className="p-2.5 sm:p-2 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors"
                           aria-label="View project"
                         >
                           <ExternalLink className="w-4 h-4" />
@@ -162,7 +162,7 @@ export default function ProjectsPage() {
                       )}
                       <a
                         href={project.github}
-                        className="p-2 rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors"
+                        className="p-2.5 sm:p-2 min-w-[44px] min-h-[44px] flex items-center justify-center rounded-lg hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors"
                         aria-label="View on GitHub"
                       >
                         <GitHubIcon className="w-4 h-4" />

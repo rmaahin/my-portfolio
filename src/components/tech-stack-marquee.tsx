@@ -39,17 +39,17 @@ function TechItem({ name, slug, src }: TechItemConfig) {
     src ?? (slug ? `https://cdn.simpleicons.org/${slug}/${LOGO_COLOR}` : "");
 
   return (
-    <div className="flex flex-col items-center gap-4 shrink-0 px-10">
-      <div className="w-20 h-20 sm:w-24 sm:h-24 lg:w-28 lg:h-28 flex items-center justify-center rounded-xl bg-zinc-200/80 dark:bg-zinc-400/60 border border-border">
+    <div className="flex flex-col items-center gap-3 sm:gap-4 shrink-0 px-4 sm:px-6 lg:px-10">
+      <div className="w-16 h-16 sm:w-24 sm:h-24 lg:w-28 lg:h-28 flex items-center justify-center rounded-xl bg-zinc-200/80 dark:bg-zinc-400/60 border border-border">
         <Image
           src={imageSrc}
           alt={name}
           width={LOGO_SIZE}
           height={LOGO_SIZE}
-          className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 object-contain"
+          className="w-10 h-10 sm:w-14 sm:h-14 lg:w-16 lg:h-16 object-contain"
         />
       </div>
-      <span className="text-base font-medium text-muted-foreground">{name}</span>
+      <span className="text-sm sm:text-base font-medium text-muted-foreground">{name}</span>
     </div>
   );
 }
@@ -154,7 +154,7 @@ export function TechStackMarquee() {
   return (
     <Reveal>
       <section className="pt-8 sm:pt-12 pb-12 sm:pb-10 overflow-hidden">
-        <h2 className="text-4xl sm:text-5xl font-semibold mb-16 text-foreground text-center">
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-10 sm:mb-16 text-foreground text-center">
           Skills
         </h2>
         <div

@@ -10,7 +10,7 @@ export default function HomePage() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       {/* Hero - Headshot left, text right */}
-      <section className="min-h-[80vh] flex flex-col lg:flex-row-reverse items-center justify-center gap-12 lg:gap-16 py-12">
+      <section className="min-h-[60vh] sm:min-h-[70vh] lg:min-h-[80vh] flex flex-col lg:flex-row-reverse items-center justify-center gap-8 sm:gap-12 lg:gap-16 py-8 sm:py-12">
         <div className="flex-1">
           <Reveal>
             <p className="text-teal-500 dark:text-teal-400 font-mono text-sm mb-4 tracking-wider uppercase">
@@ -18,7 +18,7 @@ export default function HomePage() {
             </p>
           </Reveal>
           <Reveal delay={0.1}>
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-foreground mb-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-foreground mb-4 sm:mb-6">
               Maahin
               <br />
               <span className="text-teal-500 dark:text-teal-400">
@@ -27,7 +27,7 @@ export default function HomePage() {
             </h1>
           </Reveal>
           <Reveal delay={0.2}>
-            <p className="text-lg text-muted-foreground max-w-3xl mb-10">
+            <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mb-6 sm:mb-10">
             👋 Hello! I&#39;m a grad student in Electrical and Computer Engineering specializing in ML at Rutgers University with a professional background in software engineering. My current work focuses on building agentic AI systems and RAG pipelines, where I focus on fine-tuning LLMs and leveraging knowledge bases to reason through complex, heterogeneous data.
             <br />
             <br />
@@ -35,31 +35,31 @@ export default function HomePage() {
             </p>
           </Reveal>
           <Reveal delay={0.3}>
-            <div className="flex flex-nowrap gap-4 max-w-3xl w-full">
+            <div className="flex flex-wrap sm:flex-nowrap gap-3 sm:gap-4 max-w-3xl w-full">
               <Link
                 href="/projects"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-teal-500 hover:bg-teal-600 text-white font-medium transition-colors"
+                className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 min-h-[44px] rounded-xl bg-teal-500 hover:bg-teal-600 text-white text-sm sm:text-base font-medium transition-colors"
               >
                 View Projects
                 <ArrowRight className="w-4 h-4" />
               </Link>
               <Link
                 href="/experience"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-teal-500 hover:bg-teal-600 text-white font-medium transition-colors"
+                className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 min-h-[44px] rounded-xl bg-teal-500 hover:bg-teal-600 text-white text-sm sm:text-base font-medium transition-colors"
               >
                 View Experiences
                 <ArrowRight className="w-4 h-4" />
               </Link>
               <Link
                 href="/publications"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-teal-500 hover:bg-teal-600 text-white font-medium transition-colors"
+                className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 min-h-[44px] rounded-xl bg-teal-500 hover:bg-teal-600 text-white text-sm sm:text-base font-medium transition-colors"
               >
                 View Publications
                 <ArrowRight className="w-4 h-4" />
               </Link>
               <Link
                 href="/about"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border border-border bg-zinc-200/80 dark:bg-zinc-800/60 hover:border-teal-500/100 text-foreground font-medium transition-colors whitespace-nowrap"
+                className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 min-h-[44px] rounded-xl border border-border bg-zinc-200/80 dark:bg-zinc-800/60 hover:border-teal-500/100 text-foreground text-sm sm:text-base font-medium transition-colors whitespace-nowrap"
               >
                 Get in Touch
               </Link>

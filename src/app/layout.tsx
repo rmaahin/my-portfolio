@@ -56,7 +56,7 @@ export default function RootLayout({
             <GradientMesh />
             <SpaceTimeWarp />
             <Navbar />
-            <main className="pt-24 pb-16">{children}</main>
+            <main className="pt-20 sm:pt-24 pb-12 sm:pb-16">{children}</main>
           </SmoothScroll>
         </ThemeProvider>
       </body>

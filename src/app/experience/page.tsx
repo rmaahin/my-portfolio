@@ -123,10 +123,10 @@ export default function ExperiencePage() {
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
       <Reveal>
-        <h1 className="text-4xl font-bold tracking-tight text-foreground mb-2">
+        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-foreground mb-2">
           Experience
         </h1>
-        <p className="text-muted-foreground mb-16">
+        <p className="text-muted-foreground mb-12 sm:mb-16">
           My professional journey across research, industry, and education.
         </p>
       </Reveal>
@@ -146,28 +146,28 @@ export default function ExperiencePage() {
         <div className="space-y-0">
           {timeline.map((item, i) => (
             <Reveal key={item.id} delay={i * 0.08}>
-              <div className="relative flex flex-col sm:flex-row gap-4 sm:gap-12 pb-16 last:pb-0">
+              <div className="relative flex flex-col sm:flex-row gap-3 sm:gap-12 pb-10 sm:pb-16 last:pb-0">
                 {/* Dot - on the timeline line */}
                 <div
                   className="absolute left-[11px] top-1/2 -translate-x-1/2 -translate-y-1/2 w-3 h-3 rounded-full bg-teal-500 dark:bg-teal-400 shrink-0 ring-4 ring-background dark:ring-zinc-950 z-10"
                   aria-hidden
                 />
                 {/* Period - right next to the circle, wide column for proper fit */}
-                <div className="pl-6 shrink-0 w-48 sm:w-52 flex items-center">
+                <div className="pl-5 sm:pl-6 shrink-0 w-full sm:w-48 md:w-52 flex items-center">
                   <span className="text-base font-mono text-muted-foreground leading-tight">
                     {item.period}
                   </span>
                 </div>
                 {/* Card */}
               <motion.div
-                className="flex-1 min-w-0 rounded-2xl p-6 sm:p-8 border border-border bg-zinc-50/80 dark:bg-zinc-900/60 backdrop-blur-sm"
+                className="flex-1 min-w-0 rounded-2xl p-4 sm:p-6 lg:p-8 border border-border bg-zinc-50/80 dark:bg-zinc-900/60 backdrop-blur-sm"
                 whileHover={{ y: -2 }}
                 transition={{ type: "spring", stiffness: 400, damping: 25 }}
               >
                 <div className="flex flex-col sm:flex-row sm:items-start gap-4 mb-4">
                   {item.logo && <CompanyLogo src={item.logo} alt={item.company} />}
                   <div className="flex-1 min-w-0">
-                    <h2 className="text-xl font-semibold text-foreground">
+                    <h2 className="text-lg sm:text-xl font-semibold text-foreground">
                       {item.role}
                     </h2>
                     <p className="text-teal-500 dark:text-teal-400 font-medium mt-0.5">
@@ -188,7 +188,7 @@ export default function ExperiencePage() {
                         href={link.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-border bg-white/60 dark:bg-zinc-800/60 hover:border-teal-500/50 hover:bg-teal-500/10 text-sm font-medium text-foreground transition-all duration-200"
+                        className="inline-flex items-center gap-2 px-4 py-2.5 min-h-[44px] rounded-xl border border-border bg-white/60 dark:bg-zinc-800/60 hover:border-teal-500/50 hover:bg-teal-500/10 text-sm font-medium text-foreground transition-all duration-200"
                       >
                         {link.icon?.toLowerCase() === "github" ? (
                           <GitHubIcon className="w-4 h-4 text-teal-500 dark:text-teal-400" />

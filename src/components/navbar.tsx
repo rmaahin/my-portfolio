@@ -30,7 +30,7 @@ export function Navbar() {
     >
       <nav
         className={cn(
-          "mx-4 mt-4 flex items-center justify-between rounded-2xl px-6 py-3",
+          "mx-2 sm:mx-4 mt-4 flex items-center justify-between rounded-2xl px-3 sm:px-6 py-2 sm:py-3",
           "bg-zinc-200/70 dark:bg-zinc-900/70 backdrop-blur-xl border border-white/20 dark:border-zinc-700/50 bg-zinc-200/80 dark:bg-zinc-800/60",
           "shadow-lg shadow-black/5 dark:shadow-black/20"
         )}

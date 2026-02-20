@@ -9,10 +9,10 @@ export default function AboutPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
       <Reveal>
-        <h1 className="text-4xl font-bold tracking-tight text-foreground mb-2">
+        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-foreground mb-2">
           About
         </h1>
-        <p className="text-muted-foreground mb-16">
+        <p className="text-muted-foreground mb-12 sm:mb-16">
         I specialize in building agentic AI systems and RAG pipelines, with a focus on fine-tuning models and using knowledge graphs to reason through complex data. My work also involves developing Computer Vision and Multimodal ML architectures.
         <br />
         <br />
@@ -57,19 +57,19 @@ export default function AboutPage() {
               Open to collaboration, opportunities, or just a chat.
               Reach out via any channel below.
             </p>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-3 sm:gap-4">
               <a
                 href="mailto:rmaahin2000@gmail.com"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-border bg-zinc-200/80 dark:bg-zinc-700/60 hover:border-teal-500/50 hover:bg-teal-500/5 transition-colors"
+                className="inline-flex items-center gap-2 px-3 sm:px-4 py-2.5 min-h-[44px] rounded-lg border border-border bg-zinc-200/80 dark:bg-zinc-700/60 hover:border-teal-500/50 hover:bg-teal-500/5 transition-colors"
               >
                 <Mail className="w-4 h-4" />
-                <span>rmaahin2000@gmail.com</span>
+                <span className="break-all">rmaahin2000@gmail.com</span>
               </a>
               <a
                 href="https://github.com/rmaahin"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-border bg-zinc-200/80 dark:bg-zinc-700/60 hover:border-teal-500/50 hover:bg-teal-500/5 transition-colors"
+                className="inline-flex items-center gap-2 px-3 sm:px-4 py-2.5 min-h-[44px] rounded-lg border border-border bg-zinc-200/80 dark:bg-zinc-700/60 hover:border-teal-500/50 hover:bg-teal-500/5 transition-colors"
               >
                 <GitHubIcon className="w-4 h-4" />
                 <span>GitHub</span>
@@ -78,7 +78,7 @@ export default function AboutPage() {
                 href="https://www.linkedin.com/in/maahinr/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-border bg-zinc-200/80 dark:bg-zinc-700/60 hover:border-teal-500/50 hover:bg-teal-500/5 transition-colors"
+                className="inline-flex items-center gap-2 px-3 sm:px-4 py-2.5 min-h-[44px] rounded-lg border border-border bg-zinc-200/80 dark:bg-zinc-700/60 hover:border-teal-500/50 hover:bg-teal-500/5 transition-colors"
               >
                 <Linkedin className="w-4 h-4" />
                 <span>LinkedIn</span>
@@ -87,7 +87,7 @@ export default function AboutPage() {
                 href="https://scholar.google.com/citations?user=p4n5nPYAAAAJ&hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-border bg-zinc-200/80 dark:bg-zinc-700/60 hover:border-teal-500/50 hover:bg-teal-500/5 transition-colors"
+                className="inline-flex items-center gap-2 px-3 sm:px-4 py-2.5 min-h-[44px] rounded-lg border border-border bg-zinc-200/80 dark:bg-zinc-700/60 hover:border-teal-500/50 hover:bg-teal-500/5 transition-colors"
               >
                 <GraduationCap className="w-4 h-4" />
                 <span>Google Scholar</span>
