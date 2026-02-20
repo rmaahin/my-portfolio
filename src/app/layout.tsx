@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from "next";
 import { Inter, JetBrains_Mono, Space_Grotesk } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navbar } from "@/components/navbar";
-import { CursorBlob } from "@/components/cursor-blob";
 import { SpaceTimeWarp } from "@/components/space-time-warp";
 import { GradientMesh } from "@/components/gradient-mesh";
 import { SmoothScroll } from "@/components/smooth-scroll";
@@ -58,7 +57,6 @@ export default function RootLayout({
             <SpaceTimeWarp />
             <Navbar />
             <main className="pt-24 pb-16">{children}</main>
-            <CursorBlob />
           </SmoothScroll>
         </ThemeProvider>
       </body>

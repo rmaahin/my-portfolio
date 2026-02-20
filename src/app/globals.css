@@ -51,15 +51,6 @@
   }
 }
 
-/* Hide system cursor on desktop - blob cursor only */
-@media (pointer: fine) {
-  html,
-  body,
-  * {
-    cursor: none !important;
-  }
-}
-
 /* Marquee edge fade */
 .mask-fade-x {
   mask-image: linear-gradient(
