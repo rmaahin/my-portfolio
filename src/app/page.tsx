@@ -28,7 +28,7 @@ export default function HomePage() {
           </Reveal>
           <Reveal delay={0.2}>
             <p className="text-lg text-muted-foreground max-w-3xl mb-10">
-            👋 Hello! I'm a grad student in Electrical and Computer Engineering specializing in ML at Rutgers University with a professional background in software engineering. My current work focuses on building agentic AI systems and RAG pipelines, where I focus on fine-tuning LLMs and leveraging knowledge bases to reason through complex, heterogeneous data.
+            👋 Hello! I&#39;m a grad student in Electrical and Computer Engineering specializing in ML at Rutgers University with a professional background in software engineering. My current work focuses on building agentic AI systems and RAG pipelines, where I focus on fine-tuning LLMs and leveraging knowledge bases to reason through complex, heterogeneous data.
             <br />
             <br />
             Beyond agents, I also specialize in Computer Vision and Multimodal ML, developing architectures that bridge the gap between raw perception and actionable insights. Graduating in May 2026, I am looking for full-time opportunities in Generative AI, Computer Vision, and Machine Learning.

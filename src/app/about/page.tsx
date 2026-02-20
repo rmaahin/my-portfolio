@@ -16,7 +16,7 @@ export default function AboutPage() {
         I specialize in building agentic AI systems and RAG pipelines, with a focus on fine-tuning models and using knowledge graphs to reason through complex data. My work also involves developing Computer Vision and Multimodal ML architectures.
         <br />
         <br />
-        I'm passionate about engineering scalable ML infrastructure to solve real-world problems. If you're interested in my work or would like to collaborate, please feel free to connect!
+        I&#39;m passionate about engineering scalable ML infrastructure to solve real-world problems. If you&#39;re interested in my work or would like to collaborate, please feel free to connect!
         </p>
       </Reveal>
 
