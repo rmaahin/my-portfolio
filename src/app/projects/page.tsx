@@ -120,9 +120,12 @@ export default function ProjectsPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <Reveal>
-        <h1 className="text-4xl font-bold tracking-tight text-foreground mb-2">
+        <h1 className="text-4xl font-bold tracking-tight text-foreground mb-3">
           Projects
         </h1>
+        <p className="text-muted-foreground mb-10">
+          A selection of my research and engineering projects.
+        </p>
       </Reveal>
 
       <div className="space-y-16">
