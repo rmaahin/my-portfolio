@@ -16,8 +16,7 @@ export default function ResumePage() {
               Resume
             </h1>
             <p className="text-muted-foreground max-w-2xl">
-              View or download my resume for roles in Generative AI, Computer
-              Vision, and Machine Learning.
+              Check out my resume!
             </p>
           </div>
           <div className="flex flex-wrap gap-3 shrink-0">
