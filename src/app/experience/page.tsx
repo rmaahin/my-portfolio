@@ -57,7 +57,7 @@ const timeline = [
     role: "Software Engineer",
     period: "September 2021 – August 2024",
     logo: "/companies/pwc.svg",
-    description: "- Built KQL pipelines to extract and clean 50,000+ Sentinel security alerts, creating a Pandas preprocessed dataset in PostgreSQL \n - Trained an ensemble alert-triage classifier with Scikit-Learn (Random Forest + Gradient Boosting) on structured log features, reducing false-positive rates by 18% across 3 client SOC environments \n  Fine-tuned RoBERTa-base using PyTorch and HuggingFace on 40,000+ raw alert descriptions to better capture severity, boosting F1 by 12% over the tabular-only model \n - Containerized the end-to-end inference pipeline with Docker and deployed it as a FastAPI microservice on Azure ML, that cut average analyst triage time by 5 minutes per incident",
+    description: "- Built KQL pipelines to extract and clean 50,000+ Sentinel security alerts, creating a Pandas preprocessed dataset in PostgreSQL \n - Trained an ensemble alert-triage classifier with Scikit-Learn (Random Forest + Gradient Boosting) on structured log features, reducing false-positive rates by 18% across 3 client SOC environments \n - Fine-tuned RoBERTa-base using PyTorch and HuggingFace on 40,000+ raw alert descriptions to better capture severity, boosting F1 by 12% over the tabular-only model \n - Containerized the end-to-end inference pipeline with Docker and deployed it as a FastAPI microservice on Azure ML, that cut average analyst triage time by 5 minutes per incident",
     links: [],
     tags: ["SQL", "KQL", "Splunk", "Crowdstrike"],
   },
