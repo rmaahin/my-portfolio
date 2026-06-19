@@ -14,7 +14,7 @@ export default function HomePage() {
         <div className="flex-1">
           <Reveal>
             <p className="text-teal-500 dark:text-teal-400 font-mono text-sm mb-4 tracking-wider uppercase">
-              AI Engineer
+              AI/ML Engineer
             </p>
           </Reveal>
           <Reveal delay={0.1}>
@@ -28,10 +28,10 @@ export default function HomePage() {
           </Reveal>
           <Reveal delay={0.2}>
             <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mb-6 sm:mb-10">
-            👋 Hello! I&#39;m a grad student in Electrical and Computer Engineering specializing in ML at Rutgers University with a professional background in software engineering. My current work focuses on building agentic AI systems and RAG pipelines, where I focus on fine-tuning LLMs and leveraging knowledge bases to reason through complex, heterogeneous data.
+            Hello! I am an AI/ML Engineer with a Master's in Electrical and Computer Engineering from Rutgers University,and a professional background in software engineering. My work focuses on building agentic AI systems and RAG pipelines, where I fine-tune LLMs and leverage knowledge bases to reason through complex, heterogeneous data.
             <br />
             <br />
-            Beyond agents, I also specialize in Computer Vision and Multimodal ML, developing architectures that bridge the gap between raw perception and actionable insights. Graduating in May 2026, I am looking for full-time opportunities in Generative AI, Computer Vision, and Machine Learning.
+            Beyond agents, I also specialize in Computer Vision and Multimodal ML, developing architectures that bridge the gap between raw perception and actionable insights. I'm actively seeking full-time opportunities in Generative AI, Computer Vision, and Machine Learning.
             </p>
           </Reveal>
           <Reveal delay={0.3}>
@@ -58,6 +58,13 @@ export default function HomePage() {
                 <ArrowRight className="w-4 h-4" />
               </Link>
               <Link
+                href="/resume"
+                className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 min-h-[44px] rounded-xl bg-teal-500 hover:bg-teal-600 text-white text-sm sm:text-base font-medium transition-colors"
+              >
+                View Resume
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+              <Link
                 href="/about"
                 className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 min-h-[44px] rounded-xl border border-border bg-zinc-200/80 dark:bg-zinc-800/60 hover:border-teal-500/100 text-foreground text-sm sm:text-base font-medium transition-colors whitespace-nowrap"
               >
@@ -71,7 +78,7 @@ export default function HomePage() {
         <Reveal delay={0.2}>
           <div className="relative w-56 h-56 sm:w-64 sm:h-64 lg:w-80 lg:h-80 shrink-0 rounded-2xl overflow-hidden border border-border bg-zinc-100 dark:bg-zinc-800/50">
             <Image
-              src="/headshot-Maahin.png"
+              src="/maahin-suit2-cropped.jpeg"
               alt="Maahin Rathinagiriswaran"
               fill
               className="object-cover"

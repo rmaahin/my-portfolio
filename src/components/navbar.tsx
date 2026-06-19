@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Moon, Sun, Menu, X, Home, FolderKanban, Briefcase, BookOpen, User } from "lucide-react";
+import { Moon, Sun, Menu, X, Home, FolderKanban, Briefcase, BookOpen, FileText, User } from "lucide-react";
 import { useTheme } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
 
@@ -13,6 +13,7 @@ const navItems = [
   { href: "/projects", label: "Projects", icon: FolderKanban },
   { href: "/experience", label: "Experience", icon: Briefcase },
   { href: "/publications", label: "Publications", icon: BookOpen },
+  { href: "/resume", label: "Resume", icon: FileText },
   { href: "/about", label: "About", icon: User },
 ];
 
