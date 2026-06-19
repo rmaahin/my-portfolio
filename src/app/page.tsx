@@ -28,10 +28,10 @@ export default function HomePage() {
           </Reveal>
           <Reveal delay={0.2}>
             <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mb-6 sm:mb-10">
-            Hello! I am an AI/ML Engineer with a Master's in Electrical and Computer Engineering from Rutgers University,and a professional background in software engineering. My work focuses on building agentic AI systems and RAG pipelines, where I fine-tune LLMs and leverage knowledge bases to reason through complex, heterogeneous data.
+            Hello! I am an AI/ML Engineer with a Master&apos;s in Electrical and Computer Engineering from Rutgers University,and a professional background in software engineering. My work focuses on building agentic AI systems and RAG pipelines, where I fine-tune LLMs and leverage knowledge bases to reason through complex, heterogeneous data.
             <br />
             <br />
-            Beyond agents, I also specialize in Computer Vision and Multimodal ML, developing architectures that bridge the gap between raw perception and actionable insights. I'm actively seeking full-time opportunities in Generative AI, Computer Vision, and Machine Learning.
+            Beyond agents, I also specialize in Computer Vision and Multimodal ML, developing architectures that bridge the gap between raw perception and actionable insights. I&apos;m actively seeking full-time opportunities in Generative AI, Computer Vision, and Machine Learning.
             </p>
           </Reveal>
           <Reveal delay={0.3}>
