@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, JetBrains_Mono, Space_Grotesk } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navbar } from "@/components/navbar";
 import { SpaceTimeWarp } from "@/components/space-time-warp";
@@ -59,6 +60,7 @@ export default function RootLayout({
             <main className="pt-20 sm:pt-24 pb-12 sm:pb-16">{children}</main>
           </SmoothScroll>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
